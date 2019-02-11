@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@3.10.10
+3 info using node@v8.12.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle react-native-android@0.0.1~prestart: react-native-android@0.0.1
+6 silly lifecycle react-native-android@0.0.1~prestart: no script for prestart, continuing
+7 info lifecycle react-native-android@0.0.1~start: react-native-android@0.0.1
+8 verbose lifecycle react-native-android@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle react-native-android@0.0.1~start: PATH: E:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\reactStudy\react-native-android\node_modules\.bin;C:\Program Files\Microsoft HPC Pack 2008 R2\Bin\;E:\ProgramData\Anaconda3;E:\ProgramData\Anaconda3\Library\mingw-w64\bin;E:\ProgramData\Anaconda3\Library\usr\bin;E:\ProgramData\Anaconda3\Library\bin;E:\ProgramData\Anaconda3\Scripts;D:\Java\jdk\bin;C:\Python27\;C:\Python27\Scripts;E:\phpStudy\php56n;E:\Program Files\Java\apache-maven-3.3.9-bin\bin;D:\Java\jdk\bin;D:\Java\jdk\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\Program Files (x86)\Python27;E:\Program Files\Git\cmd;C:\Python27;C:\ProgramData\ComposerSetup\bin;E:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\ProgramData\chocolatey\bin;E:\Program Files\TortoiseSVN\bin;E:\Program Files\nodejs;E:\Users\dhj\AppData\Android;E:\Users\dhj\AppData\Android\tools;E:\Users\dhj\AppData\Android\platform-tools;C:\Program Files\Microsoft VS Code\bin;E:\SIMULIA\Abaqus\Commands;E:\Program Files\nodejs;E:\Program Files (x86)\Ruby23-x64\bin;C:\Users\dhj\AppData\Roaming\Composer\vendor\bin;C:\Users\dhj\AppData\Local\Programs\Fiddler;C:\Users\dhj\AppData\Roaming\npm
+10 verbose lifecycle react-native-android@0.0.1~start: CWD: E:\reactStudy\react-native-android
+11 silly lifecycle react-native-android@0.0.1~start: Args: [ '/d /s /c',
+11 silly lifecycle   'node node_modules/react-native/local-cli/cli.js start' ]
+12 silly lifecycle react-native-android@0.0.1~start: Returned: code: 1  signal: null
+13 info lifecycle react-native-android@0.0.1~start: Failed to exec start script
+14 verbose stack Error: react-native-android@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (E:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (E:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:915:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid react-native-android@0.0.1
+16 verbose cwd E:\reactStudy\react-native-android
+17 error Windows_NT 6.1.7601
+18 error argv "E:\\Program Files\\nodejs\\node.exe" "E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "start" "--scripts-prepend-node-path=auto"
+19 error node v8.12.0
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error react-native-android@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start`
+22 error Exit status 1
+23 error Failed at the react-native-android@0.0.1 start script 'node node_modules/react-native/local-cli/cli.js start'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the react-native-android package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node node_modules/react-native/local-cli/cli.js start
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs react-native-android
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls react-native-android
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
